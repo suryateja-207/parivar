@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Buy Sarees, Celebrity Sarees, Salwar Kameez, Lehenga Choli, Wedding Lehenga, Designer Kurti, Traditional Sarees, Bridal Suits, India" />
+<title></title>
+
+<!-- Font Replacement -->
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+<link href='settings.css' rel='stylesheet' type='text/css'>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap/css/component.css" rel="stylesheet">
+<link href="bootstrap/css/normalize.css" rel="stylesheet">
+
+<script src="bootstrap/js/respond.min.js"></script>
+
+</head>
+<body>
+  <div class = "content">
+    <div class = "header clearfix">
+      <div class = "comp-pic">
+		<a href="main.html">
+          <img src="pics/icons/logo1.png"  alt="" />
+        </a>
+      </div>
+
+      <div class = "contact">
+
+      </div>
+     	<nav class="cl-effect-8">
+     		<a href="main.html">Home</a>
+            <a href="sarees.html">Sarees</a>
+            <a href="new_arrival.html">New Arrival</a></li>
+            <a href="catalogue.html">Catalogue</a></li>
+            <a href="lehenga.html">Lehenga</a></li>
+            <a href="discounted.html">Discounted</a></li>
+      </nav>
+    </div>
+    <div class="middle clearfix">
+      <div class ="row">	
+           	 
+			 <div class="col-lg-5">
+				<div id="carousel-example-generic1" class="carousel slide " data-ride="carousel"  style="width: 425px;">
+					<!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+						<div class="item active">
+						  <div class='inner-item'>
+						  <img src="pics/image_1.png" alt="...">
+						  
+						  </div>
+						  						  	
+						 </div>
+						<div class="item">
+						  <div class='inner-item'>
+							<img src="pics/image_3.png" alt="...">
+							
+						  </div>
+						  						  	
+						</div>
+						<div class="item">
+						  <div class='inner-item'>
+							<img src="pics/image_5.png" alt="...">
+							
+						  </div>
+						  						  	
+						 </div>
+						<div class="item">
+						  <div class='inner-item'>
+							<img src="pics/image_7.png" alt="...">
+							 	 
+						  </div>
+						  						  	
+						</div>
+					</div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					  </a>
+					  <a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					  </a>
+				</div> 
+		    </div>  
+			 <div class="col-lg-3">
+				<div id="slideshow_new2" >
+					   <div >
+						 <img src="pics/image_2.png" class="img-thumbnail" >
+					   </div>
+						<div >
+						 <img src="pics/image_4.png" class="img-thumbnail" >
+					   </div>
+					  
+				</div>
+		    </div>  
+		    <div class="col-lg-3">
+				<div id="slideshow_new" align="center" >
+					   <div >
+						 <img src="pics/image_6.png" class="img-thumbnail" >
+					   </div>
+						<div >
+						 <img src="pics/image_8.png" class="img-thumbnail" >
+					   </div>
+				</div>
+		    </div>  
+	  </div>
+	  <div class = "main-text">
+		    	<p>
+		    		Enter text here 
+		    	</p>
+		    </div>
+	  </div>
+    <footer>
+        <ul class='links'>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+          <li><a href="faq.html">F.A.Q.</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li>
+            <p>&copy; Kanhaiya Fashions</p>
+          </li>
+        </ul>
+    </footer>
+  
+  </div>
+  <!-- javascript -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow86.js"></script>
+    <script>
+$("#slideshow_new > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow_new > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow_new');
+},  3000);
+
+
+setInterval(function() { 
+  $('#slideshow_new2 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow_new2');
+},  3000);
+    </script>
+</body>
+</html>
